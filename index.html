@@ -58,6 +58,40 @@
 						<p>En C++, la expresión "C++" significa "incremento de C" y se refiere a que C++ es una extensión de C.</p>	
 					</section>
 				</section>
+				<section>
+					<section>
+						<h1>Sobrecarga de metodos en C++ </h1>
+						<p>En C++, dos o más funciones pueden compartir el mismo nombre, siempre y cuando sus declaraciones de parámetros sean diferentes. </p>
+					</section>
+					<section>
+						<p> Es decir podemos definir dos métodos con el mismo nombre pero uno tenga por ejemplo 3 parámetros y otro tenga 2 parámetros:</p>
+						<pre><code class = "hljs">
+	void mayor(int x1,int x2,int x3)
+	void mayor(int x1,int x2)
+						</code></pre>
+					</section>
+					<section>
+					<p> O que tengan la misma cantidad de parámetros pero sean de distinto tipo:</p>
+					<pre><code>
+	void mayor(int x1,int x2)
+	void mayor(char nombre1[40],char nombre2[40])
+					</code></pre>
+					</section>
+					<section>
+						<p>Es importante destacar que el tipo de regreso no es usado para determinar qué función se llamará.  Solamente los parámetros formales se usan para determinarlo.</p>
+						<pre><code>
+	int mayor(int a, int b);
+	double mayor(int a, int b);
+	//esto no es una sobrecarga.
+						</code></pre>
+					</section>
+				</section>
+				<section>
+					<h1> Interfaces en C++ </h1>
+				</section>
+				<section>
+					<h1> Herencia en C++ </h1>
+				</section>
 			</div>
 		</div>
 
